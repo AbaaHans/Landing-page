@@ -185,16 +185,22 @@ nav{
 /*modele image*/
 
 .modele > a > img{
-    margin:7px;
-    width:130px;
-    height: 130px;
+    margin:15px;
+    width:90px;
+    height: 90px;
     cursor: pointer;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .modele > img{
     margin-top:10px;
+   
 
+
+}
+.modele > a>img:hover{
+        transform: scale(1.5);
+        transition: 0.2s;
 
 }
 @media screen and (max-width: 736px) {
@@ -212,6 +218,7 @@ nav{
     }
 
 }
+
 
 
 
