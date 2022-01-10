@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>trophee</title>
+</head>
+<body>
+
+    <div class="container-fluid flex-column">
+        <div class="row">
+            <div class="col-md-12 p-3">
+                <nav>
+                    <img src="https://via.placeholder.com/60/09f.png/fff" alt="" srcset="">
+                </nav>
+            </div>
+        </div>
+        <div class="container-fluid  p-5">
+            <div class="row ">
+                <div class="col-md-6 col-sm-6 bg-white shadow p-2 colonne_1">
+                       <div class="image"   >
+                                <p class="text-dark">Lorem ipsum dolor sit amet, 
+                                    consectetur adipisicing elit. Nostrum beatae recusandae sequi,
+                                     veniam error tenetur, sint minus eligendi dolorem,
+                                      deleniti optio vitae distinctio laudantium ratione sit ab. Similique, dolorum facilis.
+                                </p>        
+                                <img src="img/trophee.jpg" alt="..." width="350px">
+                       </div>
+                      
+                </div>
+                <div class="col-md-2 col-sm-2">
+
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h4>Choisissez votre modèle</h4>
+                        <!-- modèle -->
+                       <div class="modele ">
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                            </a>
+                            
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                            </a>
+                        
+                                <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                                </a>
+                                <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                            </a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                            </a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                            </a>
+                            <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="https://via.placeholder.com/09f.png/fff" alt="" srcset="">
+                            </a>
+                       </div>
+                         
+                         <!-- pop-up formulaire -->
+                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                             <div class="modal-content  bg-dark text-white">
+                                 <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Remplissez le formulaire</h5>
+                                 <button type="button" class="btn-close btn-info" data-bs-dismiss="modal" aria-label="Close"></button>
+                                 </div>
+                                 <div class="modal-body">
+                                      <!--formulaire -->
+                                      <div class="alert alert-danger d-none"></div>
+                                     <form method="post" action="#" class="m-3">
+                                         <div class="fields">
+                                             <div class="field half">
+                                                 <label for="name">Nom du médecin <span class="text-danger">*</span></label>
+                                                 <input type="text"  class="Input"  required/>
+                                             </div>
+                                             <div class="field half">
+                                                 <label for="Spécialité">Spécialité <span class="text-danger">*</span></label>
+                                                 <input type="text" class="Input" required />
+                                             </div>
+                                             <div class="field half">
+                                                 <label for="INPE">INPE (optionel)</label>
+                                                 <input type="tel"  />
+                                             </div>
+                                             <div class="field half">
+                                                 <label for="Diplômé">Diplômé de ...<span class="text-danger">*</span></label>
+                                                 <input type="text" class="Input" required/>
+                                             </div>
+                                             <div class="field half">
+                                                 <label for="Branche">Branche (optionel)</label>
+                                                 <input type="text"  />
+                                             </div>
+                                             <div class="field half">
+                                                 <label for="Tel">Télephone <span class="text-danger">*</span></label>
+                                                 <input type="tel"  class="Input" required />
+                                             </div>
+                                         </div>
+                                     </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                 <button type="button" onclick=" valider()" class="btn btn-primary mx-auto d-block">Commander</button>
+                                 <button type="button" class="btn btn-info mx-auto  d-block text-white">Information</button>
+                                 </div>
+                          </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        	
+    </div>
+<!-- Footer -->
+<footer id="footer">
+    <p class="copyright">&copy;2022 Racha Digital.</p>
+</footer>
+</div>
+</body>
+
+<script src="./assets/js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+ integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
+crossorigin="anonymous"></script>
+ <script>
+ </script>
+</body>
+</html>
