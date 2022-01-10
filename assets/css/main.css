@@ -185,8 +185,9 @@ nav{
 /*modele image*/
 
 .modele > a > img{
-    margin:8px;
+    margin:7px;
     width:130px;
+    height: 130px;
     cursor: pointer;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -194,10 +195,12 @@ nav{
 .modele > img{
     margin-top:10px;
 
+
 }
 @media screen and (max-width: 736px) {
     .modele > a > img{
         width: 300px;
+        height: 300px;
     }
 
 }
